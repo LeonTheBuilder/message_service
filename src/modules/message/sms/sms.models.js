@@ -23,6 +23,8 @@ const Sms = db.define('Sms',
         },
     },
     {
+        tableName: 'msg_sms',
+        freezeTableName: true,
         charset: 'utf8mb4',
         timestamps: true,
         createdAt: true,

@@ -5,7 +5,7 @@ const DataTypes = a.models.DataTypes;
 const Sms = db.define('Sms',
     {
         id: {
-            type: DataTypes.BIGINT,
+            type: DataTypes.STRING(25),
             allowNull: false,
             primaryKey: true,
         },

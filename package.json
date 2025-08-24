@@ -1,5 +1,5 @@
 {
-  "name": "ai_service",
+  "name": "message_service",
   "version": "1.0.0",
   "scripts": {
     "dev": "nodemon src/main.js",
